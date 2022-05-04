@@ -1,0 +1,34 @@
+.photo-grid {
+  max-width: 1184px;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr)); 
+  /* padding-bottom: 56.7%; для РЕЗИНЫ по вертикали?*/
+  /* grid-template-rows: repeat(auto-fit, minmax(213px, 1fr)); */
+  /* .photo-grid-width {
+  display: block;
+  border: white solid 1px;
+  height: 50px;
+  } ВООБЩЕ ЧТОБЫ СДЕЛАТЬ РЕЗИНОВЫМ ПО 2 осям но оно и так резиновое*/ 
+}
+
+@media screen and (max-width: 1279px) {
+  .photo-grid {
+    gap: 14px;
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .photo-grid {
+    gap: 16px;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    gap: 12px;
+    max-width: 288px;
+  }
+}
