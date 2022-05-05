@@ -2,7 +2,8 @@
   margin: 26px 0 0;
   color: #FFFFFF;
   font-style: normal;
-  font-family: 'Inter_400', sans-serif;
+  font-family: 'Inter';
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.63;
 }
@@ -21,5 +22,6 @@
 @media screen and (max-width: 767px) {
   .place__paragraph {
     margin-left: 16px;
+    margin-right: 16px;
   }  
 }

@@ -3,13 +3,6 @@
   display: grid;
   gap: 16px;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr)); 
-  /* padding-bottom: 56.7%; для РЕЗИНЫ по вертикали?*/
-  /* grid-template-rows: repeat(auto-fit, minmax(213px, 1fr)); */
-  /* .photo-grid-width {
-  display: block;
-  border: white solid 1px;
-  height: 50px;
-  } ВООБЩЕ ЧТОБЫ СДЕЛАТЬ РЕЗИНОВЫМ ПО 2 осям но оно и так резиновое*/ 
 }
 
 @media screen and (max-width: 1279px) {

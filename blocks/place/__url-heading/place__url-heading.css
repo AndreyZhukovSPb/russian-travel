@@ -2,8 +2,10 @@
   display: block;
   margin: 0px;
   font-style: normal;
-  font-family: 'Inter_400', sans-serif;
+  font-family: 'Inter';
+  font-weight: 400;
   font-size: 12px;
   line-height: 1;
   letter-spacing: 0.2em;
+  color: #AAAAAA;
 }

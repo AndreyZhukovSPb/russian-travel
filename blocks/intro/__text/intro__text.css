@@ -2,7 +2,8 @@
   margin: 40px 0 33px;
   display: block;
   font-style: normal;
-  font-family: 'Inter_400', sans-serif;
+  font-family: 'Inter';
+  font-weight: 400;
   font-size: 16px;
   line-height: 163%;
 }
