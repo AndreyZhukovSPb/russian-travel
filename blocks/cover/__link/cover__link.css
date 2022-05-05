@@ -2,13 +2,13 @@
   color: #FFFFFF;
   display: flex;
   flex-direction: column;
-  max-width: 1184px;  
-  min-height: 740px; 
+  max-width: 1184px;
+  min-height: 740px;
   background-image: url(../../../sprint-3-images/cover-trains.jpg);
-  background-size: cover; 
+  background-size: cover;
   text-decoration: none;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   position: relative;
   transition: opacity 2s ease;
   align-self: center;
