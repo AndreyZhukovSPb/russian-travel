@@ -1,8 +1,8 @@
 .place {
   width: 100%;
   display: grid;
-  row-gap: 48px; 
-  column-gap: 40px; 
+  row-gap: 48px;
+  column-gap: 40px;
   color: #FFFFFF;
   grid-template-columns: 460px auto;  
 }
